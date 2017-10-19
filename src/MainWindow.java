@@ -32,16 +32,12 @@ public class MainWindow {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
+
 	public MainWindow() {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
+
 	private void initialize() {
 		frmKalkulator = new JFrame();
 		frmKalkulator.getContentPane().setFont(new Font("Tahoma", Font.PLAIN, 20));
@@ -68,14 +64,6 @@ public class MainWindow {
 				Szczecinska3133.skan();
 				txtrOutput.setText(Szczecinska3133.wyniki);
 		
-				//DecimalFormat dc =new DecimalFormat("###.##");
-			//	dc.setRoundingMode(RoundingMode.HALF_UP);
-				
-				//txtrOutput.setText("Powierzchnia mieszkania wynosi: " + dc.format(Szczecinska3133.mieszk) + 
-				//		"\nPowierzchnia czêœci wspólnych wynosi: " + dc.format(Szczecinska3133.czwspol) +
-				//		"\nPowierzchnia gruntu z udzia³em w drodze wynosi: " + dc.format(Szczecinska3133.grunt + 3.14));
-			//	double i2=i/60000;
-			//	tv.setText(new DecimalFormat("##.##").format(i2))
 			}
 		});
 	
